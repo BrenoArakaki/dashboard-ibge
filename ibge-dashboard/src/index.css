@@ -1,0 +1,164 @@
+@import "tailwindcss";
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--border));
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--muted-foreground));
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--border)) transparent;
+}
+
+@layer base {
+  :root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 87%;
+  --card-foreground: 222 47% 11%;
+
+  --navbar: 0 0% 90%;
+  --navbar-foreground: 222 47% 11%;
+
+  --muted: 220 14% 96%;
+  --muted-foreground: 220 9% 46%;
+
+  --border: 220 13% 80%;
+  --input: 222 47% 11%;
+  --ring: 235 86% 65%;
+
+  --primary: 235 86% 65%;
+  --primary-foreground: 0 0% 100%;
+}
+
+.dark {
+  --background: 220 8% 20%;
+  --foreground: 210 17% 95%;
+
+  --navbar: 225 7% 14%;
+  --navbar-foreground: 210 17% 95%;
+
+  --card: 225 7% 18%;
+  --card-foreground: 210 17% 80%;
+
+  --border: 225 6% 40%;
+  --input: 225 6% 27%;
+  --ring: 235 86% 65%;
+
+  --muted: 225 6% 27%;
+  --muted-foreground: 220 5% 58%;
+
+  --primary: 235 86% 65%;
+  --primary-foreground: 0 0% 100%;
+
+  --success: 145 51% 45%;
+  --destructive: 359 82% 58%;
+  --warning: 48 100% 67%;
+}
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer utilities {
+  /* Background & foreground */
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+
+  /* Card */
+  .bg-card {
+    background-color: hsl(var(--card));
+  }
+
+  .text-card-foreground {
+    color: hsl(var(--card-foreground));
+  }
+
+  /* Navbar */
+  .bg-navbar {
+    background-color: hsl(var(--navbar));
+  }
+
+  .text-navbar {
+    color: hsl(var(--navbar-foreground));
+  }
+
+  /* Muted (ESSENCIAL p/ hover) */
+  .bg-muted {
+    background-color: hsl(var(--muted));
+  }
+
+  .text-muted-foreground {
+    color: hsl(var(--muted-foreground));
+  }
+
+  /* Primary */
+  .bg-primary {
+    background-color: hsl(var(--primary));
+  }
+
+  .text-primary-foreground {
+    color: hsl(var(--primary-foreground));
+  }
+
+  /* Borders & inputs */
+  .border-border {
+    border-color: hsl(var(--border));
+  }
+
+  .border-input {
+    border-color: hsl(var(--input));
+  }
+
+  /* Focus ring */
+  .ring-ring {
+    --tw-ring-color: hsl(var(--ring));
+  }
+
+  .row-hover:hover {
+    background-color: hsl(var(--muted));
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin; /* Firefox */
+  }
+
+  .scrollbar-thumb {
+    scrollbar-color: hsl(var(--muted-foreground)) transparent;
+  }
+
+  /* Chrome / Edge / Safari */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted-foreground));
+    border-radius: 9999px;
+  }
+}
