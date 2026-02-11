@@ -35,4 +35,4 @@
 📦 Installation
 
 Clone the repository:
-<pre> ```bash $ git clone https://github.com/your-username/dashboard-ibge.git $ cd dashboard-ibge $ npm install $ npm run dev ``` </pre>
+<pre> $ git clone https://github.com/your-username/dashboard-ibge.git </pre>
