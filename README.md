@@ -17,23 +17,16 @@
 🖼️ Screenshots
 <p align="center"> <img width="100%" src="https://github.com/user-attachments/assets/4a978ef7-02ed-457b-94e2-ae294c615782" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/6937940d-db03-4a3e-a000-e809a8b163e8" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/7d5b02c7-e30d-485a-a28e-13b4bc26fa00" /> </p>
 🛠️ Tech Stack
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-ShadCN/UI
-
-TanStack Query
-
-Chart.js
-
-IBGE API
+- React
+- TypeScript
+- Tailwind CSS
+- ShadCN/UI
+- TanStack Query
+- Chart.js
+- IBGE API
 
 📦 Installation
 
 Clone the repository:
-
+--bash
 git clone https://github.com/your-username/dashboard-ibge.git
