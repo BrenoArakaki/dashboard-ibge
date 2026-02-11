@@ -1,42 +1,39 @@
-# 📊 Dashboard IBGE
+📊 IBGE Dashboard
+<p align="center"> Interactive dashboard for visualization and analysis of public data from <strong>IBGE (Brazilian Institute of Geography and Statistics)</strong>, focused on population indicators by state and time period. </p> <p align="center"> <img src="https://img.shields.io/badge/React-18-blue?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript" /> <img src="https://img.shields.io/badge/TailwindCSS-3-38B2AC?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Chart.js-4-FF6384?logo=chartdotjs" /> <img src="https://img.shields.io/badge/API-IBGE-green" /> </p>
+🚀 Features
 
-Dashboard interativo desenvolvido para visualização e análise de dados públicos do **IBGE**, com foco em indicadores populacionais por estado e período.
+📍 Population data visualization by state (UF)
 
-O projeto tem como objetivo transformar dados brutos em informações visuais claras, facilitando a análise e a tomada de decisão.
+🎛️ Interactive filters for selecting one or multiple states
 
----
+📊 Dynamic and responsive charts
 
-## 🚀 Funcionalidades
+🌙 Light/Dark mode support
 
-- Visualização de dados populacionais por **estado (UF)**
-- Filtros interativos para seleção de estados
-- Gráficos dinâmicos e responsivos
-- Interface moderna e intuitiva
-- Consumo de dados via **API do IBGE**
+⚡ Optimized data fetching with TanStack Query
 
----
+🔗 Real-time data consumption via IBGE Public API
 
-## 🖼️ Screenshots do App
+🖼️ Screenshots
+<p align="center"> <img width="100%" src="https://github.com/user-attachments/assets/4a978ef7-02ed-457b-94e2-ae294c615782" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/6937940d-db03-4a3e-a000-e809a8b163e8" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/7d5b02c7-e30d-485a-a28e-13b4bc26fa00" /> </p>
+🛠️ Tech Stack
 
-<img width="1882" height="865" alt="image" src="https://github.com/user-attachments/assets/4a978ef7-02ed-457b-94e2-ae294c615782" />
-<img width="1370" height="875" alt="image" src="https://github.com/user-attachments/assets/6937940d-db03-4a3e-a000-e809a8b163e8" />
-<img width="1374" height="891" alt="image" src="https://github.com/user-attachments/assets/7d5b02c7-e30d-485a-a28e-13b4bc26fa00" />
+React
 
-## 🛠️ Tecnologias Utilizadas
+TypeScript
 
-- **React**
-- **TypeScript**
-- **Tailwind CSS**
-- **ShadCN/UI**
-- **Tanstack Query**
-- **Chart.js**
-- **API IBGE**
+Tailwind CSS
 
----
+ShadCN/UI
 
-## 📦 Instalação e Execução
+TanStack Query
 
-Clone o repositório:
+Chart.js
 
-```bash
-git clone https://github.com/seu-usuario/dashboard-ibge.git
+IBGE API
+
+📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/dashboard-ibge.git
