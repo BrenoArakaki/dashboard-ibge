@@ -15,7 +15,7 @@
 🔗 Real-time data consumption via IBGE Public API
 
 🖼️ Screenshots
-<p align="center"> <img width="100%" src="https://github.com/user-attachments/assets/4a978ef7-02ed-457b-94e2-ae294c615782" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/6937940d-db03-4a3e-a000-e809a8b163e8" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/7d5b02c7-e30d-485a-a28e-13b4bc26fa00" /> </p>
+<p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/4a978ef7-02ed-457b-94e2-ae294c615782" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/6937940d-db03-4a3e-a000-e809a8b163e8" /> </p> <p align="center"> <img width="80%" src="https://github.com/user-attachments/assets/7d5b02c7-e30d-485a-a28e-13b4bc26fa00" /> </p>
 🛠️ Tech Stack
 
 - React
